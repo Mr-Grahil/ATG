@@ -1,0 +1,13 @@
+{
+    "name":"Title Dekh",
+    "description":"Get the title of the current tab",
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"fav.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+}
