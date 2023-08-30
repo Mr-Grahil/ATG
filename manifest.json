@@ -1,13 +1,15 @@
 {
-    "name":"Title Dekh",
-    "description":"Get the title of the current tab",
+    "name":"Data Lelo",
+    "description":"Load the givne list of urls and extract the data from the page",
     "version":"1.0",
     "manifest_version":3,
     "action":{
         "default_popup":"index.html",
         "default_icon":"fav.png"
     },
+    "host_permissions": ["http://localhost:5000/api/v1/project/", "*://*/*"],
     "permissions":[
-        "tabs"
+        "tabs","activeTab","scripting"
+
     ]
 }

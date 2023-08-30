@@ -8,3 +8,26 @@ body{
     width:150px;
     
 }
+#openlink{
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    width:100px;
+    border-radius: 5px;
+}
+#openlink:hover{
+    font-size: 18px;
+    width:110px;
+}
+#import{
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    width:100px;
+    border-radius: 5px;
+
+}
+#import:hover{
+    font-size: 18px;
+    width:110x;p
+}
